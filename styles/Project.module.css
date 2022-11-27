@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+  width: 33%;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.title {
+  margin: 0px;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.link {
+  color: #5422ee;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.subtitle {
+  font-size: 18px;
+}
+
+.feed {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedItem {
+  border: 1px solid #e0dcef;
+  padding: 16px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+.feedItemContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data {
+  color: #5422ee;
+}
