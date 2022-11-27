@@ -1,6 +1,7 @@
+import Link from "next/link";
+
 import { Project as ProjectType } from "../../types/projects";
 import styles from "../../styles/Project.module.css";
-import Link from "next/link";
 
 interface ProjectProps {
   project: ProjectType;
