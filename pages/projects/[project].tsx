@@ -51,7 +51,7 @@ export const Project = ({ project }: ProjectProps) => {
       </div>
       <div>{`Number of feeds: ${project.num_of_records}`}</div>
       <div>{`Source: ${project.source}`}</div>
-      <div>{`Verison: ${project.version}`}</div>
+      <div>{`Version: ${project.version}`}</div>
       {project.num_of_records >= 10 && (
         <div className={styles.feed}>
           <h2 className={styles.subtitle}>Top 10 feeds:</h2>
