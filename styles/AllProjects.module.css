@@ -1,0 +1,28 @@
+.title {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+  width: 33%;
+}
+
+.card {
+  display: flex;
+  border: 1px solid #e0dcef;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  color: #5422ee;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 100%;
+}
