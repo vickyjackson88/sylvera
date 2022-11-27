@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot tests: projects/all renders AllProjects DOM unchanged 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1
+      class="title"
+    >
+      Live Projects
+    </h1>
+    <div
+      class="card"
+    >
+      <a
+        class="link"
+        data-testid="project1-link"
+        href="/projects/project1"
+      >
+        <span>
+          project1
+        </span>
+        <span>
+          →
+        </span>
+      </a>
+    </div>
+    <div
+      class="card"
+    >
+      <a
+        class="link"
+        data-testid="project2-link"
+        href="/projects/project2"
+      >
+        <span>
+          project2
+        </span>
+        <span>
+          →
+        </span>
+      </a>
+    </div>
+    <div
+      class="card"
+    >
+      <a
+        class="link"
+        data-testid="project3-link"
+        href="/projects/project3"
+      >
+        <span>
+          project3
+        </span>
+        <span>
+          →
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+`;

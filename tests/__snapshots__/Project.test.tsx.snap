@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot tests: projects/all renders Project DOM unchanged 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="titleContainer"
+    >
+      <a
+        class="link"
+        href="/projects/all"
+      >
+        ←
+      </a>
+      <h1
+        class="title"
+      />
+    </div>
+    <div>
+      Number of feeds: 99
+    </div>
+    <div>
+      Source: test source
+    </div>
+    <div>
+      Verison: 2022-11-26T19:46:11Z
+    </div>
+    <div
+      class="feed"
+    >
+      <h2
+        class="subtitle"
+      >
+        Top 10 feeds:
+      </h2>
+      <div
+        class="feedItem"
+        data-testid="feed-item"
+      >
+        <div
+          class="feedItemContent"
+        >
+          <span>
+            Device ID
+          </span>
+          <span
+            class="data"
+          >
+            test device id
+          </span>
+        </div>
+        <div
+          class="feedItemContent"
+        >
+          <span>
+            Latitude
+          </span>
+          <span
+            class="data"
+          >
+            4
+          </span>
+        </div>
+        <div
+          class="feedItemContent"
+        >
+          <span>
+            Longitude
+          </span>
+          <span
+            class="data"
+          >
+            5
+          </span>
+        </div>
+        <div
+          class="feedItemContent"
+        >
+          <span>
+            Time of entry
+          </span>
+          <span
+            class="data"
+          >
+            at 23:12:22 on 26/11/2022
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
