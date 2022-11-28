@@ -26,8 +26,8 @@ export const AllProjects = ({ projects }: ProjectsProps) => {
   );
 };
 
-// Using server-side rendering instead of static rendering because the response changes
-// But requests by default are only made on navigating, not on page refresh
+// Using server-side rendering with cache control headers
+// instead of static rendering because the response changes
 export const getServerSideProps = async ({ res }: any) => {
   res.setHeader(
     'Cache-Control',
