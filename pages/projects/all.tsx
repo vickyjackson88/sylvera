@@ -26,7 +26,7 @@ export const AllProjects = ({ projects }: ProjectsProps) => {
   );
 };
 
-// Using server-side rendering instead of static rendering because response changes
+// Using server-side rendering instead of static rendering because the response changes
 // But requests by default are only made on navigating, not on page refresh
 export const getServerSideProps = async ({ res }: any) => {
   res.setHeader(
