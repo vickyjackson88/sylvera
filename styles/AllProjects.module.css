@@ -8,7 +8,7 @@
   flex-direction: column;
   padding: 64px;
   width: 600px;
-  min-width: 400px;
+  min-width: 300px;
 }
 
 .card {
@@ -26,4 +26,10 @@
   text-decoration: none;
   text-transform: capitalize;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 32px;
+  }
 }
